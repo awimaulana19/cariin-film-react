@@ -1,0 +1,58 @@
+.App{
+  text-align: center;
+}
+
+.App-header{
+  background-color: rgb(37, 31, 31);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Movie-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}
+
+.Movie-wrapper{
+  width: 500px;
+  background-color: antiquewhite;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.Movie-search{
+  height: 48px;
+  font-size: 24px;
+  margin-bottom: 32px;
+  padding: 16px;
+  font-weight: bold;
+  width: 475px;
+}
+
+.Movie-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  font-weight: bold;
+}
+
+.Movie-date{
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.Movie-rate{
+  margin-bottom: 10px;
+  color: red;
+  text-decoration: underline;
+}
